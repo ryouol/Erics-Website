@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SUBI - Contact</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="music.html" class="nav-link">Music</a>
+        </header>
+        <div class="contact-container">
+            <h1>Contact SUBI</h1>
+            <form
+                action="mailto:your-email@example.com"
+                method="post"
+                enctype="text/plain"
+            >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required />
+
+                <label for="message">Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <div class="social-links">
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </body>
+</html>
