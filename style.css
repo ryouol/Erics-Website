@@ -106,3 +106,40 @@ a:hover {
 a:active {
     color: rgb(160, 255, 255);
 }
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent; /* Transparent background */
+}
+
+.footer-content a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-content a:hover {
+    color: rgb(160, 160, 255);
+}
+
+.footer-content a:active {
+    color: rgb(160, 255, 255);
+}
+
+.footer-email {
+    margin-top: 10px;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    font-size: 12px;
+}
