@@ -107,6 +107,42 @@ a:active {
     color: rgb(160, 255, 255);
 }
 
+/* Header Styles */
+header {
+    width: 100%;
+    background-color: transparent; /* White background */
+    color: #fffff; /* Black text color */
+    padding: 20px 0;
+    position: fixed; /* Fix the header at the top */
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure the header is above other content */
+}
+
+.header-content {
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    align-items: center;
+}
+
+.header-link {
+    margin: 0 15px;
+    color: #ffffff; /* Black text color */
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Times New Roman", serif;
+}
+
+.header-link:hover {
+    color: rgb(160, 160, 255);
+}
+
+.header-link:active {
+    color: rgb(160, 255, 255);
+}
+
 /* Footer Styles */
 footer {
     text-align: center;
