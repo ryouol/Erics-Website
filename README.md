@@ -1,14 +1,11 @@
 # Erics-Website
 
-# /project-folder
-
-# │
 
 # ├── index.html Homepage
 
 # ├── music.html Music page
 
-# ├── contact.html Contact page
+# ├── About.html About page
 
 # ├── css
 
@@ -22,4 +19,4 @@
 
 # ├── images Logo and album images
 
-# └── music Audio files (if hosting locally)
+# └── music Audio files
